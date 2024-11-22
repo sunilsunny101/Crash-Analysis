@@ -12,5 +12,6 @@ output (folder): Houses the final analysis output, currently presented as a Goog
 
 transformations (folder): Embraces the core analysis code. Within this directory:
 
-    Functions_pyspark.py: Houses meticulously crafted functions specifically designed for the crash analysis.
-    code.py: Imports and leverages the functions defined in Functions_pyspark.py, taking responsibility for the data loading process. This segregation promotes code clarity and modularity.
+Functions_pyspark.py: Houses meticulously crafted functions specifically designed for the crash analysis.
+
+code.py: Imports and leverages the functions defined in Functions_pyspark.py, taking responsibility for the data loading process. This segregation promotes code clarity and modularity.
