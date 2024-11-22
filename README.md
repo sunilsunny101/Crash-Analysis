@@ -14,6 +14,6 @@ transformations (folder): Embraces the core analysis code. Within this directory
 
 Functions_pyspark.py: Houses meticulously crafted functions specifically designed for the crash analysis.
 
-code.py: Imports and leverages the functions defined in Functions_pyspark.py, taking responsibility for the data loading process. This segregation promotes code clarity and modularity.
+code.py: Imports and leverages the functions defined in Functions_pyspark.py, taking responsibility for the data loading process. This segregation promotes code clarity and modularity. (Both code.py and main.py cotains same code)
 
 To see the results, execute the run.py file 
