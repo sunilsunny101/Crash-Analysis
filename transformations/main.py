@@ -7,7 +7,7 @@ spark = SparkSession.builder.appName("CrashAnalysis_").getOrCreate()
 #spark.sparkContext.setLogLevel("ERROR")
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(current_dir, "data")
+data_dir = os.path.join(current_dir, "../data")
 #output_dir = os.path.join(current_dir, "output")
 
 primary_person_df = createdf(data_dir,'Primary_Person_use.csv')
@@ -71,7 +71,11 @@ df_10 = top_5_vehmak_lic(units_df,primary_person_df)
 df_10.show()
 print('__________________________________________________________________________________________________________________________________________________________________________________________')
 
+def main():
+    print("Hello from main.py!")
 
+if __name__ == "__main__":
+    main()
 
 
 spark.stop()
