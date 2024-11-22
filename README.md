@@ -9,6 +9,7 @@ For optimal organization and clarity, the project adheres to a well-defined dire
 data (folder): Holds all the raw data essential for the crash analysis, ensuring easy access and reproducibility.
 
 output (folder): Houses the final analysis output, currently presented as a Google Colab notebook. Choosing this format facilitates interactive exploration for those familiar with the platform. Due to the relatively small size of the resulting dataframes, this approach proves efficient.
+    Within this directory, Analysis_output.txt contains the results of all the analyses conducted for this case study.
 
 transformations (folder): Embraces the core analysis code. Within this directory:
 
